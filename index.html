@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-7">
+	<meta http-equiv="Content-Language" content="el">
+	<title>Research</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+</head>
+<body class="container" >
+	<h1 style="color:blue;text-align:center;">Questionnaire</h1>
+	<h5 style="color:blue;text-align:center;">Please answer the following question</h5>
+	<div class="container" style="text-align:center;">
+	<h3>Have you done the flu vaccine?</h3>
+	<span id="insTrans"></span>
+	<div id="msg"></div>
+	<br>
+	<div id="msg2"></div>
+	    <div id="buttonVote">
+		<br>
+		YES&nbsp&nbsp<br><input type="checkbox" id="myCheck">
+		<br>
+		NO&nbsp&nbsp&nbsp<br><input type="checkbox" id="myCheck2">
+		<br>
+		<br>
+		<a href="#" onclick="myfunction()" class="btn btn-primary">Vote</a>
+		<p id="demo"></p>
+	    </div>
+	</div>
+	<div id="results" style="text-align:center;"">
+	<a href="#" onclick="Showresults()" class="btn btn-primary">Show results</a>
+	</div>
+	<div id="table" style="text-align:center;margin-top: 3em;" >
+	<table align="center">
+		<tr>
+			<th>Total Number of people who participated&nbsp&nbsp</th>
+			<th>How many said YES(%)</th>
+		</tr>
+		<tr>
+			<td id="total"></td>
+			<td id="pososto"></td>
+		</tr>
+	</table>
+	</div>    
+    <p style="text-align:center;">The survey is conducted from the "ServiceName" with Ethereum Address: <span id="admin"></span></p>    
+	</div>
+</body>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./app.js"></script>
+</html>
