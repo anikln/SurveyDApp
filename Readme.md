@@ -72,5 +72,5 @@ If someone wants to deploy the contract to the Ethereum mainnet or in an Ethereu
 
 ## Authors
 
-* **Klinaki Athina Styliani** -  [AniKln](https://github.com/anikln)
+* **Kleinaki Athina Styliani** -  [AniKln](https://github.com/anikln)
 
